@@ -16,7 +16,7 @@ class DetailedList extends React.Component {
               <div className="backbtn">BACK</div>
             </div>
             <div className="pmdata">
-              {this.props.location.state.photo && (
+              {/* {this.props.location.state.photo && (
                 <img
                   src={
                     this.props.location.state.photo &&
@@ -24,7 +24,7 @@ class DetailedList extends React.Component {
                   }
                   alt={this.props.location.state.name}
                 />
-              )}
+              )} */}
 
               <div className="userName">{this.props.location.state.name}</div>
               <hr />
