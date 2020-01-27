@@ -28,7 +28,7 @@ class Card extends React.Component {
         <Redirect
           push
           to={{
-            pathname: `/${this.props.name}`,
+            pathname: `/Random-Users/${this.props.name}`,
             state: {
               id: this.props.id,
               name: this.props.name,
@@ -80,7 +80,4 @@ class Card extends React.Component {
   }
 }
 
-export default connect(
-  null,
-  mapDispatchToProps
-)(Card);
+export default connect(null, mapDispatchToProps)(Card);
