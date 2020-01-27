@@ -10,8 +10,8 @@ const App = () => {
       <Header />
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={List} />
-          <Route exact path="/:name" component={DetailedList} />
+          <Route exact path="/Random-Users/" component={List} />
+          <Route exact path="/Random-Users/:name" component={DetailedList} />
         </Switch>
       </BrowserRouter>
     </div>
