@@ -26,14 +26,14 @@ class DetailedList extends React.Component {
                 />
               )} */}
 
-              <div className="userName">{this.props.location.state.name}</div>
+              {/* <div className="userName">{this.props.location.state.name}</div>
               <hr />
               <div className="userLocation">
                 {this.props.location.state.location}
-              </div>
+              </div> */}
             </div>
             <div className="pbdata">
-              <table className="datatable">
+              {/* <table className="datatable">
                 <tbody>
                   <tr>
                     <td>Gender</td>
@@ -56,7 +56,7 @@ class DetailedList extends React.Component {
                     <td>{this.props.location.state.phone}</td>
                   </tr>
                 </tbody>
-              </table>
+              </table> */}
             </div>
           </div>
         </div>
