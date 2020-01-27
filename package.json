@@ -4,6 +4,7 @@
   "homepage": "https://PiperGuy.github.io/Random-Users",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-redux": "^5.0.7",
